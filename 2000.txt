@@ -1,0 +1,134 @@
+January 
+1 John Paulean 61 111,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ February 
+1 John Paulean 62 1,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ March 
+1 John Paulean 63 2,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ April 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ May 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ June 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ July 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ August 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ September 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ October 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ November 
+1 John Paulean 60 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ December 
+1 John Paulean 64 17,6 
+2 William Hubot 45,7 80,8 
+3 Devid Tyron 55,1 120 
+4 Eric Von 34,2 130,3 
+5 Matt Dean 71,5 130,3 
+6 Fred Durst 64,7 90,1 
+7 Steve Dewie 54,8 40,4 
+8 Derek Jude 38,3 122,5 
+9 Lena Paul 12,5 19 
+10 Riley Reid 77,7 180,9
+ Water 5,4
+ Electrisity 1,2

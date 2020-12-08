@@ -1,0 +1,17 @@
+﻿<Window x:Class="BuidingManager.SetPrices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuidingManager"
+        mc:Ignorable="d"
+        Title="SetPrices" Height="200" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox Name="WaterPrice" Background="Transparent" BorderThickness="0,0,0,1" Width="250" Height="35" Margin="0,0,0,100" Text="Water Price" 
+                 FontSize="18" FontFamily="Bahnschrift Light"    TextAlignment="Center" MouseEnter="WaterPrice_SelectionChanged" MouseLeave="WaterPrice_MouseLeave"/>
+        <TextBox Name="ElectrisityPrice" Background="Transparent" BorderThickness="0,0,0,1" Width="250" Height="35" Margin="0,0,0,0" Text="Electrisity Price" 
+                 FontSize="18" FontFamily="Bahnschrift Light"    TextAlignment="Center" MouseEnter="ElectrisityPrice_MouseEnter" MouseLeave="ElectrisityPrice_MouseLeave"/>
+        <Button Width="150" Margin="0,100,0,0" FontFamily="Bahnschrift Light" Content="Let's go!"  Click="Button_Click_Prices"/>
+    </Grid>
+</Window>
