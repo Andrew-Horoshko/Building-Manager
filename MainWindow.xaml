@@ -11,26 +11,27 @@
     <Grid >
 
         <Grid.Background>
-            <ImageBrush ImageSource="C:\Users\Bob\Desktop\3kurs\BuidingManager\depositphotos_48153433-stock-photo-marble-texture-stone-background.jpg"/>
+            <ImageBrush ImageSource="C:\Users\Bob\Desktop\3kurs\BuidingManager\assets\depositphotos_48153433-stock-photo-marble-texture-stone-background.jpg"/>
         </Grid.Background>
         <StackPanel Height="100" Margin="76,10,76,309">
-            <Image Height="109" Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\logo.png"/>
+            <Image Height="109" Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\assets\logo.png"/>
         </StackPanel>
         
         <Button  Height="55" Width="240" Margin="10 0 10 100"    Content="Manage Data" FontSize="24" FontFamily="Bahnschrift Light"   
                   Style="{StaticResource MaterialDesignRaisedButton}" Click="Button_Click_Data" />
 
         <Button Height="55" Width="240" Margin="10 100 10 50 " Content="Help" FontSize="24" FontFamily="Bahnschrift Light" 
-                 Style="{StaticResource MaterialDesignRaisedButton}"/>
+                 Style="{StaticResource MaterialDesignRaisedButton}" Click="Button_Click_Help"/>
         <Button Height="Auto" Background="Transparent" BorderThickness="0"  Margin="76,296,226,60"  Click="Button_Click_GitHub">
-            <Image Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\завантаження.png"  Height="43" Width="49" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\assets/завантаження.png"  Height="43" Width="49" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
         <Button Height="Auto" Background="Transparent" BorderThickness="0"  Margin="226,296,76,60" Click="Button_Click_Instagram" >
-            <Image Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\insta-2036559-1740213.png"  Height="68" Width="57" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\assets\insta-2036559-1740213.png"  Height="68" Width="57" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </Button>
         <Button Height="25"  Width="240" Margin="76,364,76,20" 
-                FontFamily="Bahnschrift Light" BorderThickness="0"  Background="Transparent" Foreground="Blue">
-            <TextBlock TextDecorations="Underline" FontWeight="Bold" >
+                FontFamily="Bahnschrift Light" BorderThickness="0"  Background="Transparent" Foreground="Blue"
+                Click="Button_Click_Mail">
+            <TextBlock TextDecorations="Underline"   FontWeight="Bold"  >
                Stuck ? Having issues?
             </TextBlock>
         </Button>

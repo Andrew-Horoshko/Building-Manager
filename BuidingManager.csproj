@@ -47,7 +47,9 @@
       <HintPath>packages\MaterialDesignThemes.3.2.0\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -71,6 +73,21 @@
       <DependentUpon>Bills.xaml</DependentUpon>
     </Compile>
     <Compile Include="Building.cs" />
+    <Compile Include="Email.xaml.cs">
+      <DependentUpon>Email.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Installer1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Installer1.Designer.cs">
+      <DependentUpon>Installer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendLetter.xaml.cs">
+      <DependentUpon>SendLetter.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SetPrices.xaml.cs">
       <DependentUpon>SetPrices.xaml</DependentUpon>
     </Compile>
@@ -78,6 +95,14 @@
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
     <Page Include="Bills.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Email.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Help.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -93,6 +118,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SendLetter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SetPrices.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

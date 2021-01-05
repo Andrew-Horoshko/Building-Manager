@@ -9,12 +9,12 @@
         WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel   Width="300" HorizontalAlignment="Left">
-            <Image Height="103" Margin="0,3,0,0" Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\person.png"/>
+            <Image Height="103" Margin="0,3,0,0" Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\assets\person.png"/>
             <TextBox  Name="Person"  Height="40" Margin="0,13,0,0" BorderThickness="0,0,0,1" 
                  FontSize="20" FontFamily="Bahnschrift Light"    TextAlignment="Center"/>
         </StackPanel>
         <StackPanel   Width="300" HorizontalAlignment="Right">
-            <Image Height="109" Margin="0,10,0,0" Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\door.png"/>
+            <Image Height="109" Margin="0,10,0,0" Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\assets\door.png"/>
             <TextBox  Name="Flat" Height="40" Margin="0,0,0,0" BorderThickness="0,0,0,1" 
                  FontSize="24" FontFamily="Bahnschrift Light"  TextAlignment="Center"/>
         </StackPanel>

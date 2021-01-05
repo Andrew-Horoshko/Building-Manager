@@ -1,0 +1,28 @@
+﻿<Window x:Class="BuidingManager.Email"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuidingManager"
+        mc:Ignorable="d"
+        Title="Email" Height="250" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Height="50" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Image Height="50" Source="C:\Users\Bob\Desktop\3kurs\BuidingManager\assets\mail.png"/>
+        </StackPanel>
+        <TextBox IsReadOnly="True"  Width="372" Margin="10,55,10,67" Text="You can ask questions via email or instagram, if you &#xD;&#xA;choose instagram  there's a link above ,if you &#xD;&#xA;consider writing an email here's my &#xD;&#xA;adress : safer.andy@gmail.com " FontSize="16" FontFamily="Bahnschrift Light" />
+        <Button Height="Auto" Width="100" Margin="162,164,130,22"  Content="Copy Email"  Click="Button_Click_Copy" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.483"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.421"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Height="Auto" Width="100" Margin="282,164,10,22"  Content="OK"  Click="Button_Click_Ok"/>
+        <Button Height="Auto" Width="140" Margin="10,164,242,22"  Content="Write A Letter"  Click="Button_Click_Letter"/>
+    </Grid>
+</Window>

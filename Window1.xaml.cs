@@ -6,6 +6,9 @@ namespace BuidingManager
     public delegate void DataTransferDelegate(string data);
     public partial class Window1 : Window
     {
+        /// <summary>
+        /// Window with our main DataGrid and endless posibilities to change arround year data
+        /// </summary>
 
          Building currBuilding = new Building();
         public Window1()
@@ -45,7 +48,7 @@ namespace BuidingManager
 
         private void Button_Click_Change(object sender, RoutedEventArgs e)
         {
-            currBuilding.ManageFile(NewFileName, Year);
+            currBuilding.ManageFile();
         }
 
         private void Button_Click_Set_Price(object sender, RoutedEventArgs e)

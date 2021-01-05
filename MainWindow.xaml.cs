@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -16,13 +18,14 @@ using System.Windows.Shapes;
 namespace BuidingManager
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Main menu
     /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void Button_Click_GitHub(object sender, RoutedEventArgs e)
@@ -41,6 +44,18 @@ namespace BuidingManager
             new Window1().Show();
             this.Close();
         
+        }
+
+        private void Button_Click_Mail(object sender, RoutedEventArgs e)
+        {
+            Email mail = new Email();
+            mail.Show();
+        }
+
+        private void Button_Click_Help(object sender, RoutedEventArgs e)
+        {
+            Help window = new Help();
+            window.Show();
         }
     }
 }

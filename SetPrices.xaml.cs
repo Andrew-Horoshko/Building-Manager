@@ -15,7 +15,10 @@ using System.Windows.Shapes;
 namespace BuidingManager
 {
     public partial class SetPrices : Window
-    {
+    { 
+        /// <summary>
+        /// Window for user set prices for water and electrisity
+        /// </summary>
         public SetPrices()
         {
             InitializeComponent();

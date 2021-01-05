@@ -1,0 +1,15 @@
+﻿<Window x:Class="BuidingManager.Help"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BuidingManager"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Help" Height="450" Width="800">
+    <Grid>
+        <TextBlock    Height="450"  FontFamily="Bahnschrift Light" Width="800" FontSize="16"><Run Text="• Щоб відкрити робочу поверхню ,натисніть кнопку Manage File в головному меню "/><LineBreak/><Run Text="• Для того,щоб відкрити інструкцію користувача натисніть на кнопку Help в головному меню"/><LineBreak/><Run Text=" • Для того, щоб відкрити сторінку розробника в  одній з соціальних мереж натисніть кнопку "/><LineBreak/><Run Text="відповідної соціальної мережі в головному меню                                "/><LineBreak/><Run Text="• Щоб ,задати запитання натисніть на кнопку в головному меню Stuck? Having issues?"/><LineBreak/><Run Text=" • Для того, щоб скопіювати пошту в буфер обміну з вікна запитань ,натисніть кнопку Copy"/><LineBreak/><Run Text=" • Для того, щоб написати лист з програми ,натисніть кнопку Write Letter "/><LineBreak/><Run Text="• Для того, щоб відправити лист напишіть його у віконці Send Letter та натисніть відповідну кнопку Send "/><LineBreak/><Run Text="• Щоб , відкрити файл в робочій поверхні – оберіть відповідне джерело у випадаючому списку знизу "/><LineBreak/><Run Text=" • Для того, щоб відобразити данні за місяць – виберіть на робочій поверхні місяць з випадаючого"/><LineBreak/><Run Text=" списку "/><LineBreak/><Run Text="• Для того, щоб  вернутись у головне меню натисніть на робочій поверхні кнопку Back"/><LineBreak/><Run Text="  • Для редагування напишіть нові данні в відповідному полі таблиці ta натисніть на кнопку Edit"/><LineBreak/><Run Text="   • Для збереження нового файлу виберіть рік або шаблон (у випадку шаблонку знизу у полі"/><LineBreak/><Run Text=" New File Name напишіть ім'я новому файлу) та натисніть кнопку   • Для відображення місяців без "/><LineBreak/><Run Text="данних -натисніть кнопку  Save"/><LineBreak/><Run Text=" • Для занесення нових данних про тарифи натисніть кнопку   та у спливаючому вікні оберіть нові значення у відповідних рядках  та натисніть кнопку Set Prices "/><LineBreak/><Run Text="• Для того,щоб переглянути рекорди натисніть кнопку Get records"/><LineBreak/><Run Text="   • Для видалення обраного файлу натисніть на кнопку    Delete"/></TextBlock>
+
+
+    </Grid>
+</Window>
